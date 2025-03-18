@@ -8,7 +8,7 @@ export default function Footer() {
           <h2 className="text-xl font-bold">Get in Touch</h2>
           <p className="text-sm mt-1">We're here to support your mental health journey.</p>
           <p className="mt-2">📧 support@mentalhealthweb.com</p>
-          <p>📞 7906264376</p>
+          <p>📞+9999999999</p>
         </div>
 
         <div className="flex justify-center space-x-6 mb-4">

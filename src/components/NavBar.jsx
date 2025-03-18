@@ -25,8 +25,8 @@ export default function Navbar() {
           <motion.ul
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
-            exit={{ x: "100%", opacity: 0, transition: { duration: 1 } }}
-            transition={{ duration: 0.5 }}
+            exit={{ x: "100%", opacity: 0, transition: { duration: 0.7 } }}
+            transition={{ duration: 0.4 }}
             className="absolute z-40 top-0 right-0 h-screen w-3/4 bg-purple-600 shadow-lg flex flex-col items-center rounded-md space-y-6 pt-20 text-xl font-bold sm:hidden"
           >
             {["Home", "Stats", "Profile", "Settings"].map(item => (

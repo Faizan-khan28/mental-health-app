@@ -48,8 +48,8 @@
 			"typeName": "page"
 		},
 		{
-			"x": -240.02431950749275,
-			"y": -9343.394030093013,
+			"x": -768.2642755137836,
+			"y": -9405.784577952032,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -454,19 +454,22 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": -123.08555056863054,
-			"y": -8701.42888247222,
-			"lastActivityTimestamp": 1741623141346,
+			"x": 28.666667938232422,
+			"y": 193.33334350585938,
+			"lastActivityTimestamp": 1741860567181,
 			"meta": {}
 		},
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:dash": "solid"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
-				"type": "default",
+				"type": "move",
 				"rotation": 0
 			},
 			"isFocusMode": false,
@@ -501,7 +504,7 @@
 			"meta": {},
 			"duplicateProps": null,
 			"id": "instance:instance",
-			"currentPageId": "page:page",
+			"currentPageId": "page:mCsNt0d9qfF_zRFiX2RT0",
 			"typeName": "instance"
 		},
 		{
@@ -520,12 +523,201 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 459.19287997763377,
-			"y": 9242.233145117432,
-			"z": 0.5276092723644996,
+			"x": 813.0024779762413,
+			"y": 9512.73576276127,
+			"z": 0.39188913129840103,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"meta": {},
+			"id": "page:mCsNt0d9qfF_zRFiX2RT0",
+			"name": "Page 2",
+			"index": "a25EA",
+			"typeName": "page"
+		},
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1,
+			"meta": {},
+			"id": "camera:page:mCsNt0d9qfF_zRFiX2RT0",
+			"typeName": "camera"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:EqwWLw97s4C4baS6eiZZW"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:mCsNt0d9qfF_zRFiX2RT0",
+			"pageId": "page:mCsNt0d9qfF_zRFiX2RT0",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 46.66666793823242,
+			"y": 57.333335876464844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:JDLG9BY3kkiOWhLZblYRF",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 8,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:mCsNt0d9qfF_zRFiX2RT0",
+			"index": "a1",
+			"typeName": "shape"
+		},
+		{
+			"x": 20.00007438659668,
+			"y": 49.80202102661133,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:EqwWLw97s4C4baS6eiZZW",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 274.81251335144043,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "cards {"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "<card/>"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "}"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": " cards = [{"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "  img = \"\""
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "  h1 = what is Anxity"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "  button = view"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "}]"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:mCsNt0d9qfF_zRFiX2RT0",
+			"index": "a22gA",
+			"typeName": "shape"
 		}
 	]
 }

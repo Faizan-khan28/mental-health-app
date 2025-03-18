@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center text-center p-6 md:p-10 w-screen bg-purple-200 rounded-lg shadow-lg">
       <motion.div 
-        initial={{ opacity: 0, x: -50 }} 
+        initial={{ opacity: 0, x: -100 }} 
         animate={{ opacity: 1, x: 0 }} 
-        transition={{ duration: 0.9 }}
+        transition={{ duration: 0.5 }}
         className="w-full md:w-1/2 px-4"
       >
         <h1 className="text-2xl sm:text-xl md:text-3xl font-bold text-purple-900 leading-tight">
